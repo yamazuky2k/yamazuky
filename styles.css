@@ -1,0 +1,115 @@
+/* Resetando margens e paddings padrões */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Cor de fundo, tipografia e disposição geral */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #fff;
+  line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1a1a1a;
+  padding: 20px 50px;
+}
+
+header .logo h1 {
+  color: #ff4081;
+  font-size: 24px;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+
+header nav ul li {
+  margin-left: 20px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Seção Hero */
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  background-color: #1a1a1a;
+  text-align: center;
+}
+
+.hero-text {
+  max-width: 600px;
+}
+
+.hero h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.hero .btn {
+  background-color: #ff4081;
+  color: #fff;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.hero .btn:hover {
+  background-color: #f50057;
+}
+
+/* Seção Documentação */
+.docs {
+  padding: 50px;
+  background-color: #333;
+  text-align: center;
+}
+
+.docs h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.docs .btn {
+  background-color: #ff4081;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.docs .btn:hover {
+  background-color: #f50057;
+}
+
+/* Rodapé */
+footer {
+  background-color: #1a1a1a;
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+}
